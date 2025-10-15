@@ -1,3 +1,5 @@
+# Dự án: **Thuật toán Tìm kiếm Nhị phân (Binary Search) – Mở rộng cho AlgoVault**
+
 ## 🧠 Mô tả dự án
 Dự án **AlgoVault** là một thư viện mã nguồn mở tổng hợp các **thuật toán lập trình** viết bằng nhiều ngôn ngữ khác nhau như Python, Java, C++, giúp sinh viên và lập trình viên dễ dàng học tập, chia sẻ và đóng góp.  
 
