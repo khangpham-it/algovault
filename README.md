@@ -1,68 +1,28 @@
-[![GitHub stars](https://img.shields.io/github/stars/sgtlaugh/algovault.svg?style=flat&label=star)](https://github.com/sgtlaugh/algovault/)
-[![license](https://img.shields.io/github/license/sgtlaugh/algovault.svg?style=flat-square)](https://github.com/sgtlaugh/algovault/blob/master/LICENSE)
+Dự án: Thuật toán Tìm kiếm Nhị phân (Binary Search) – Mở rộng cho AlgoVault
 
-## Algovault
-### A collection of algorithms, data structures and templates for competitive programming
+🧠 Mô tả dự án
+Dự án AlgoVault là một thư viện mã nguồn mở tổng hợp các thuật toán lập trình viết bằng nhiều ngôn ngữ khác nhau như Python, Java, C++, giúp sinh viên và lập trình viên dễ dàng học tập, chia sẻ và đóng góp.  
 
-<li>Useful in online competitions like <a href="https://codeforces.com">CodeForces</a>, <a href="https://codingcompetitions.withgoogle.com/codejam">Google Code Jam</a></li>
-<li>Simple to use as a black-box without compromising performance</li>
-<li>Example usage and sufficient documentation</li>
+Trong phần đóng góp của tôi, tôi đã bổ sung một thuật toán Tìm kiếm Nhị phân (Binary Search) bằng ngôn ngữ Python, nhằm mở rộng kho thuật toán Python của dự án.  
+Thuật toán này giúp tìm vị trí của một phần tử trong danh sách đã sắp xếp nhanh chóng và hiệu quả (độ phức tạp O(log n)).
 
-<br>
-Codes are mostly written in C++. majority should work with C++11 and some might require C++14 or higher. Some algorithms are written in Python. For Python, use Python 3. Most of them should be compatible with PyPy as well.
-</br>
+⚙️ Công nghệ sử dụng
+- Ngôn ngữ: Python 3  
+- Công cụ: GitHub, Visual Studio Code  
+- Môi trường: Mã nguồn mở (Open Source Repository)  
+- Cấu trúc lưu trữ: `algorithms/python/binary_search.py`
 
-<br>
-Implementations are usually stress-tested and cross-checked against various problems. Nonetheless, they are not guranteed to be flawless and work in all cases.
-</br>
+💎 Phân tích nội dung đóng góp
+📄 File: `binary_search.py`
+Đây là trung tâm của phần đóng góp, chứa toàn bộ logic xử lý tìm kiếm nhị phân.  
+Mã nguồn được viết rõ ràng, có chú thích và ví dụ minh họa để người học dễ hiểu và tái sử dụng.
 
-<br>
-For bugs, refactoring and improvements, feel free to file an issue or a pull request as contributions are always welcome.
-</br>
+Chức năng chính:
+1. Tìm kiếm phần tử:  
+   - Đầu vào: Danh sách `arr` (đã sắp xếp) và giá trị cần tìm `target`.  
+   - Đầu ra: Trả về chỉ số (index) của phần tử nếu tìm thấy, hoặc `-1` nếu không tồn tại.  
 
-## The Zen Of Contributing
-Inspired from [The Zen Of Python](https://www.python.org/dev/peps/pep-0020/#id2)
-
-```python
-Beautiful is better than ugly
-
-Simple is way better than complex
-
-Consistency matters
-
-Flat is preferred over nested
-
-Typing is better than incomprehensible macros
-
-Because readability counts
-
-But not as much as speed
-
-Some documentation is better than no documentation
-
-No documentation is better than extensive documentation
-
-But not as important as ease of reusing as a black box
-
-Four spaces are better than tabs
-
-Tabs are better than no spaces
-
-If the implementation is hard to explain, it's a bad idea
-
-If the implementation is easy to explain, it may be a good idea
-
-Namespaces are one honking great idea, let's do more of those!
-```
-
-## Future Work
-  <ol>
-  <li>This is still a work in progress so I'll port more code from my template over the time</li>
-  <li>Add stress tests, automated unit tests and integration tests</li>
-  <li>Refactor and simplify old implementations</li>
-  <li>Add practice problems</li>
-  <li>Add a comprehensive index</li>
-  </ol>
-
-## License
-The project is licensed under the [MIT License](https://github.com/sgtlaugh/algovault/blob/master/LICENSE)
+2. Ví dụ minh họa:
+   ```python
+   arr = [1, 3, 5, 7, 9]
+   print(binary_search(arr, 7))  # 👉 Kết quả: 3
